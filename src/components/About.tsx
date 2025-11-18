@@ -11,7 +11,7 @@ export function About() {
               Nossa História
             </h2>
             <p className="text-lg text-gray-600 mb-6">
-              Somos cinco amigos que se conheceram na faculdade de Engenharia de Software, em 2024. Compartilhamos a vontade de inovar em tecnologia e, juntos, decidimos fundar a Brain Five.
+              Somos cinco amigos que se conheceram na faculdade de Engenharia de Software, em 2022. Compartilhamos a vontade de inovar em tecnologia e, juntos, decidimos fundar a Brain Five.
             </p>
             <p className="text-lg text-gray-600 mb-8">
               Nosso nome representa a união de cinco mentes que transformam ideias simples em soluções incríveis.

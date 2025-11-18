@@ -39,7 +39,7 @@ export function Footer() {
               <a href="#" className="hover:text-white transition-colors">
                 <Instagram className="w-5 h-5" />
               </a>
-              <a href="www.linkedin.com/in/brain-fiveb5" className="hover:text-white transition-colors">
+              <a href="https://linkedin.com/in/brain-fiveb5" target="_blank" className="hover:text-white transition-colors">
                 <Linkedin className="w-5 h-5" />
               </a>
               <a href="#" className="hover:text-white transition-colors">

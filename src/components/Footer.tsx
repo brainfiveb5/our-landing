@@ -36,13 +36,13 @@ export function Footer() {
           <div>
             <h4 className="text-white mb-4">Redes Sociais</h4>
             <div className="flex gap-4">
-              <a href="#" className="hover:text-white transition-colors">
+              <a target="_blank" href="https://www.instagram.com/brainfive.tech?igsh=MThqaTJnZzdxcjducw%3D%3D&utm_source=qr" className="hover:text-white transition-colors">
                 <Instagram className="w-5 h-5" />
               </a>
               <a href="https://linkedin.com/in/brain-fiveb5" target="_blank" className="hover:text-white transition-colors">
                 <Linkedin className="w-5 h-5" />
               </a>
-              <a href="#" className="hover:text-white transition-colors">
+              <a href="mailto:brainfive.b5@gmail.com" className="hover:text-white transition-colors">
                 <Mail className="w-5 h-5" />
               </a>
             </div>

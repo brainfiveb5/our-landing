@@ -11,13 +11,13 @@ export function CTA() {
         <p className="text-xl mb-8 text-blue-50">
           Entre em contato conosco e descubra como a Brain Five pode transformar sua ideia em realidade.
         </p>
-        
+
         <div className="flex flex-wrap gap-4 justify-center">
           <Button size="lg" variant="secondary" className="gap-2">
-            <Mail className="w-4 h-4" /> Fale Conosco
+            <a href="mailto:brainfive.b5@gmail.com"> Fale Conosco</a>
           </Button>
           <Button size="lg" variant="outline" className="bg-transparent text-white border-white hover:bg-white/10">
-            Ver Mais Projetos <ArrowRight className="w-4 h-4" />
+            <a target="_blank" href="https://github.com/brainfiveb5">Ver Mais Projetos </a>
           </Button>
         </div>
 

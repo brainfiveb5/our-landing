@@ -23,7 +23,7 @@ export function Header() {
         </nav>
 
         <div className="flex items-center gap-4">
-          <Button>Fale Conosco</Button>
+          <Button><a href="mailto:brainfive.b5@gmail.com">Fale Conosco</a></Button>
         </div>
       </div>
     </header>

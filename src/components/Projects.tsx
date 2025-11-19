@@ -3,6 +3,7 @@ import { Button } from "./ui/button";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
 import coffeImg from '../assets/coffe.png';
 import nestImg from '../assets/nest.png';
+import bgBook from '../assets/book-project.png';
 
 const projects = [
   {
@@ -16,7 +17,7 @@ const projects = [
   {
     title: "BG Books",
     description: "Esta é uma plataforma focada no registro e reserva de livros ligada ao projeto 'Book Management'.",
-    image: "../assets/book-project.png",
+    image: bgBook,
     tags: ["React", "Tailwind", "Vite"],
     status: "Em produção"
   },

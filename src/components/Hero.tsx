@@ -21,10 +21,11 @@ export function Hero() {
 
           <div className="flex flex-wrap gap-4 justify-center">
             <Button size="lg" className="gap-2">
-              Conheça Nossos Projetos <ArrowRight className="w-4 h-4" />
+              <a target="_blank" href="https://github.com/brainfiveb5?tab=repositories">Conheça Nossos Projetos </a>
+
             </Button>
             <Button size="lg" variant="outline">
-              Fale Conosco
+              <a href="mailto:brainfive.b5@gmail.com">Fale Conosco</a>
             </Button>
           </div>
 

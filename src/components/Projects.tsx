@@ -1,12 +1,14 @@
 import { ExternalLink, Github } from "lucide-react";
 import { Button } from "./ui/button";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
+import coffeImg from '../assets/coffe.png';
+import nestImg from '../assets/nest.png';
 
 const projects = [
   {
     title: "Coffe Landing",
     description: "Esta é uma landing page referente a uma cafeteria. Utilizando angular, com animações e responsividade.",
-    image: "src/assets/coffe.png",
+    image: coffeImg,
     tags: ["Angular", "Typescript"],
     status: "Em produção",
     link: "https://github.com/brainfiveb5/coffe-landing"
@@ -14,14 +16,14 @@ const projects = [
   {
     title: "BG Books",
     description: "Esta é uma plataforma focada no registro e reserva de livros ligada ao projeto 'Book Management'.",
-    image: "src/assets/book-project.png",
+    image: "../assets/book-project.png",
     tags: ["React", "Tailwind", "Vite"],
     status: "Em produção"
   },
   {
     title: "Book Management",
     description: "Esta aplicação integra APIs do Google e um banco de dados PostgreSQL para fornecer gerenciamento de dados seguro e escalável.",
-    image: "src/assets/nest.png",
+    image: nestImg,
     tags: ["NestJS", "PostgreSQL", "JWT"],
     status: "Em produção",
     link: "https://github.com/Lucas-Glaydson/-Book-Management"
